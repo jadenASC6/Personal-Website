@@ -98,8 +98,13 @@ a:hover {
 .search:hover {
     border:0;
 }
+/* 
+#Portfolio {
+    display: flex;
+    flex-flow: row wrap;
+} */
 
-#Portfolio img{
+#port_img img{
     height: 250px;
     width: 250px;
 }
