@@ -1,0 +1,105 @@
+body {
+    background-color: #2b2b28;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    background-color: #2b2b28;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.button:hover {
+    color: white;
+    border-bottom: solid 10px white;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    background-color: black;
+}
+
+.name {
+    position: absolute;
+    background-color: #2b2b28;
+    color: white;
+    left: 31.5vw;
+    top: 40vh;
+    z-index: 1;
+    padding: 10px;
+}
+
+.name h1 {
+    font-size: 70px;
+}
+
+#nav h1{
+    font-size: 20px;
+}
+
+.carousel-item {
+    height: 95vh;
+}
+
+.carousel-slide {
+    display: flex;
+}
+
+.sections {
+    background-color: black;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-flow: wrap row;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.section_header {
+    text-align: left;
+    background-color: #2b2b28;
+    color:  white;
+    padding-left: 15px;
+}
+
+.search {
+    display: flex;
+    background-color: black;
+    padding-right: 0;
+    align-content: center;
+}
+
+.search img {
+    width: auto;
+    height: 20px;
+    filter: invert(100%);
+    align-self: center;
+}
+.search h3{
+    display: flex;
+    background-color: black;
+    padding-right: 0;
+    align-content: center;
+    margin: 0;
+}
+
+.search:hover {
+    border:0;
+}
+
+#Portfolio img{
+    height: 250px;
+    width: 250px;
+}
