@@ -1,5 +1,5 @@
 body {
-    background-color: #2b2b28;
+    background-color: black;
 }
 
 a {
@@ -42,7 +42,7 @@ a:hover {
 }
 
 .name h1 {
-    font-size: 70px;
+    font-size: 5em;
 }
 
 #nav h1{
@@ -60,11 +60,12 @@ a:hover {
 .sections {
     background-color: black;
     color: white;
-    margin: 0;
+    margin: 0 0 50px 0;
     display: flex;
     flex-flow: wrap row;
     padding: 20px;
     justify-content: space-evenly;
+
 }
 
 .section_header {
@@ -107,4 +108,11 @@ a:hover {
 #port_img img{
     height: 250px;
     width: 250px;
+    border: 3px solid white;
+}
+
+@media(max-width: 350px) {
+    #nav a h1 {
+        font-size: 40%;
+    }
 }
